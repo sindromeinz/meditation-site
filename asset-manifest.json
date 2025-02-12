@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/medtation-site/static/css/main.6a11b77d.css",
-    "main.js": "/medtation-site/static/js/main.d886c0dd.js",
-    "static/js/488.dfb59840.chunk.js": "/medtation-site/static/js/488.dfb59840.chunk.js",
-    "static/media/fire.mp3": "/medtation-site/static/media/fire.444ea6472e54d6cefb31.mp3",
-    "static/media/rain.mp3": "/medtation-site/static/media/rain.185ffe1195098b57fd15.mp3",
-    "static/media/birds.mp3": "/medtation-site/static/media/birds.32c88f127b08fc6d6d31.mp3",
-    "static/media/waves.mp3": "/medtation-site/static/media/waves.a7eaa4d3b4f8f1e7d0ce.mp3",
-    "static/media/white-noise.mp3": "/medtation-site/static/media/white-noise.814169d4766c5160d6d2.mp3",
-    "static/media/sloth.webm": "/medtation-site/static/media/sloth.739450cd174adfc257a8.webm",
-    "index.html": "/medtation-site/index.html",
-    "main.6a11b77d.css.map": "/medtation-site/static/css/main.6a11b77d.css.map",
-    "main.d886c0dd.js.map": "/medtation-site/static/js/main.d886c0dd.js.map",
-    "488.dfb59840.chunk.js.map": "/medtation-site/static/js/488.dfb59840.chunk.js.map"
+    "main.css": "/meditation-site/static/css/main.6a11b77d.css",
+    "main.js": "/meditation-site/static/js/main.fcfd78b7.js",
+    "static/js/488.dfb59840.chunk.js": "/meditation-site/static/js/488.dfb59840.chunk.js",
+    "static/media/fire.mp3": "/meditation-site/static/media/fire.444ea6472e54d6cefb31.mp3",
+    "static/media/rain.mp3": "/meditation-site/static/media/rain.185ffe1195098b57fd15.mp3",
+    "static/media/birds.mp3": "/meditation-site/static/media/birds.32c88f127b08fc6d6d31.mp3",
+    "static/media/waves.mp3": "/meditation-site/static/media/waves.a7eaa4d3b4f8f1e7d0ce.mp3",
+    "static/media/white-noise.mp3": "/meditation-site/static/media/white-noise.814169d4766c5160d6d2.mp3",
+    "static/media/sloth.webm": "/meditation-site/static/media/sloth.739450cd174adfc257a8.webm",
+    "index.html": "/meditation-site/index.html",
+    "main.6a11b77d.css.map": "/meditation-site/static/css/main.6a11b77d.css.map",
+    "main.fcfd78b7.js.map": "/meditation-site/static/js/main.fcfd78b7.js.map",
+    "488.dfb59840.chunk.js.map": "/meditation-site/static/js/488.dfb59840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a11b77d.css",
-    "static/js/main.d886c0dd.js"
+    "static/js/main.fcfd78b7.js"
   ]
 }
