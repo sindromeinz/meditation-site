@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+  }
+  
+  .ocean {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #015871;
+  }
+  
+  .wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+    position: absolute;
+    width: 6400px;
+    top: -198px;
+    left: 0;
+    height: 198px;
+    transform: translate(0, 0, 0);
+    animation: wave 7s ease infinite;
+  }
+  
+  .wave:nth-of-type(2) {
+    top: -168px;
+    animation: swell 4s ease infinite;
+    opacity: 1;
+  }
+  
+  @keyframes wave {
+    0% { margin-left: 0; }
+    100% { margin-left: -1600px;}
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate(0, -30px);
+    }
+    50% {
+      transform: translate(0, 5px);
+    }
+  }
+  
+.sound-btn {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sound-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .sound-btn.active {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .breathing-circle {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  body {
+    background-color: #1a1a2e; /* Change this to your preferred color */
+    color: white; /* Ensure text is readable */
+  }
+  
+  .card {
+    background: rgba(44, 44, 84, 1); /* Semi-transparent dark background */
+    backdrop-filter: blur(10px); /* Glass effect */
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+  }
+  
+  .sound-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .sound-btn:hover, .sound-btn.active {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+  }
+  
